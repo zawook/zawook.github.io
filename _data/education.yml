@@ -1,0 +1,13 @@
+# Degree
+- degree: Academy Certificate
+  uni: EZEN IT Academy
+  year: 2020
+  award: Most likely to succeed
+#  summary: You can choose to have either a single or multiple awards
+
+- degree: BA, BS - Korean literature in Chinese classic, Materials Science and Engineering
+  uni: Korea University
+  year: 2015
+  awards:
+    - award: dual degree
+#  summary: If you had any meaningful roles at college, feel free to write about them here

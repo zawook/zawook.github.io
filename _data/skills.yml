@@ -1,0 +1,12 @@
+# Skills
+- skill: Language
+  description: <img src="https://img.shields.io/badge/-JAVA-3486eb"> <img src="https://img.shields.io/badge/-Python-6434eb"> <img src="https://img.shields.io/badge/-JS-ffcc00"> <img src="https://img.shields.io/badge/-JSP-3486eb">
+
+- skill: Framework
+  description: <img src="https://img.shields.io/badge/framework-Spring-brightgreen"> <img src="https://img.shields.io/badge/framework-MyBatis-red">
+
+- skill: Database
+  description: <img src="https://img.shields.io/badge/db-MySQL-9cf">
+
+- skill: etc
+  description: <img src="https://img.shields.io/badge/tool-Maven-orange">

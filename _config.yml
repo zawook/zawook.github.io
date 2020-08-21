@@ -1,41 +1,63 @@
-# Setup
-title: Avenue R
-tagline: by zawook
-url: http://zawook.github.io
-paginate: 1
-baseurl: ""
-permalink: pretty
+# Site settings
+title: "zawook.github.io"
+description: "A resume template for Jekyll and GitHub Pages sites."
 
-# Gems
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
-
-# Optimize Jekyll
-exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-
+# Build settings
+markdown: kramdown
 sass:
   sass_dir: _sass
-  style: :compressed
+  style: compressed
 
-# Options
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "TongYoung Park"
+resume_title:                   "Web Developer"
 
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "zawookmist@gmail.com"
 
-# Specify the author for blog posts
-author:
-  name: zawook
-  url: 'velog.io/@zawook'
-  email: zawookmist@gmail.com
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       ""
+resume_contact_address:         ""
 
-# Custom vars
-version: 3.0.0
+resume_header_contact_info:     "zawookmist@gmail.com"
+display_header_contact_info:    "true"
+
+resume_header_intro: "<p>'What Do You Do with a B.A. in Korean?'</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      false
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_skills:          true
+resume_section_recognition:     false
+resume_section_links:           false
+resume_section_associations:    false
+resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/zawook"
+  # resume_twitter_url:           "http://twitter.com/jglovier"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_website_url:           "https://velog.io/@zawook"
+  # resume_medium_url:            "https://medium.com/@jglovier"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
